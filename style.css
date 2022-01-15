@@ -1,6 +1,7 @@
  /* ___ Common Styles___ */
  body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 
@@ -68,9 +69,33 @@
 .fa-star.filled {
     color: orangered;
 }
+.fa-star.empty {
+    color: #3A3A3A;
+}
 .explore {
     color:#E02C6D;
     text-decoration: none;
+    font-size:20px ;
+    font-weight: 600;
+    margin: 57px;
 }
-
+.see-more {
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+}
+/* ___Footer___ */
+.copyright {
+    text-align: center;
+    color: white;
+    background-color: rgb(10, 10, 44);
+    display: grid;
+    align-content: space-around;
+    grid-column-gap: 10px;
+    height: 200px;
+}
+.icons {
+    padding: 10px;
+    
+}
 
